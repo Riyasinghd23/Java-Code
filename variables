@@ -1,0 +1,16 @@
+public class Main
+{
+    public void variable(){
+	int _$abc_56= 5;
+	_$abc_56=(int)50.70;//typecasting
+	double d1=50;//implicit conversion
+	System.out.println(d1);
+	System.out.println(_$abc_56);
+	}
+	
+	public static void main(String[] args) {
+	  Main main = new Main();
+	  main.variable();
+}
+}
+
