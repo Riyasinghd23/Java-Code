@@ -1,0 +1,26 @@
+class Emp{
+   int id;
+   int salary;
+  static String ceo;
+
+public void show(){
+   System.out.println(id+ " : "+salary+" : "+ceo );
+}
+}
+public class Main
+{
+	public static void main(String[] args) {
+			
+	    Emp riya= new Emp();
+	    riya.id=1;
+	    riya.salary= 100000;
+	    riya.ceo= "Ritu";
+	    
+	    Emp praj=new Emp();
+	    praj.id=2;
+	    praj.salary=200000;
+	    Emp.ceo= "riya";
+	    riya.show();
+	    praj.show();
+	}
+}
